@@ -17,3 +17,4 @@ st.markdown('''
                     .subheader {font_size: 24px; text-align:center; color: #9F2B68;}
                   </style>
                   ''', unsafe_allow_html = True
+           )

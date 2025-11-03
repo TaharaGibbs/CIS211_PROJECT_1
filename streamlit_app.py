@@ -17,8 +17,8 @@ st.markdown('''
                     .subheader {font_size: 24px; text-align:center; color: #9F2B68;}
                   </style>
                   ''', unsafe_allow_html = True)
-# sidebar
-st.sidebar.title('🌌Navigation')
+# Sidebar
+st.sidebar.title('🌌 Navigation')
 page = st.sidebar.radio('Go To:',
                         ['🏠 Home', '🌟 About', '💼 Projects', '🔨 Skills', '📄 Resume', '📩 Contract' ])
 

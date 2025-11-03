@@ -20,9 +20,9 @@ st.markdown('''
 # sidebar
 st.sidebar.title('🌌Navigation')
 page = st.sidebar.radio('Go To:',
-                        ['🏠Home', '🌟About', '💼Projects', '🔨Skills', '📄Resume', '📩Contract' ])
+                        ['🏠 Home', '🌟 About', '💼 Projects', '🔨 Skills', '📄 Resume', '📩 Contract' ])
 
 # Home Page 
-if page == '🏠Home':
+if page == '🏠 Home':
   st.markdown('<p class="main-header">Tahara Gibbs</p>', unsafe_allow_html=True)  
   st.markdown('<p class="sub-header">Aspiring Astronaut | Medgar Evers College</p>', unsafe_allow_html=True)

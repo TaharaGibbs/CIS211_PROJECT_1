@@ -19,5 +19,5 @@ st.markdown('''
                   ''', unsafe_allow_html = True)
 # sidebar
 st.sidebar.title('🌌Navigation')
-page = st.sidebar.radio('Go to',
+page = st.sidebar.radio('Go To:',
                         ['🌎Home', '🌟About', '💼Projects', '🔨Skills', '📄Resume', '📩Contract' ])

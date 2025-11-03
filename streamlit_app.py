@@ -26,3 +26,15 @@ page = st.sidebar.radio('Go To:',
 if page == '🏠 Home':
   st.markdown('<p class="main-header">Tahara Gibbs</p>', unsafe_allow_html=True)  
   st.markdown('<p class="sub-header">Aspiring Astronaut | Medgar Evers College</p>', unsafe_allow_html=True)
+
+# Three Colums for stats
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+  st.metric('GPA', '3.8', '📚')
+with col2:
+  st.metric('Projects', '5', '💻')
+with col3:
+  st.metric('Skills', '10+', '🚀')
+st.write('---')

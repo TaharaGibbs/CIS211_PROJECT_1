@@ -52,4 +52,5 @@ with col1:
               📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
 
               🚀 **Fun Fact:** I can make complex edits on Adobe After Effects!
+              ''')
   

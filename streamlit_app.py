@@ -33,7 +33,7 @@ if page == '🏠 Home':
   with col1:
     st.metric('GPA', '2.1', '📚')
   with col2:
-    st.metric('Projects', '5', '💼')
+    st.metric('Projects', '6', '💼')
   with col3:
     st.metric('Skills', '10+', '🚀')
     

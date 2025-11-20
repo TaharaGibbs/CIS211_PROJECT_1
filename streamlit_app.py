@@ -80,3 +80,10 @@ elif page == '🌟 About':
 
   st.subheader('Interests & Hobbies 🏓')
   interests = ['Web Development', 'A.I/Machine Learning', 'Art', 'Baseball', 'Volleyball', 'Japanese Animations']
+
+  # Display the interests in columns
+  cols = st.columns(3)
+  for i, interest in enumerate(interests):
+    with cols[i % 3]:
+      st.info(f'🧩{interest}')
+

@@ -67,7 +67,7 @@ elif page == '🌟 About':
   with st.expander('2024 - Present: Medgar Evers Colle'):
     st.write('''
               - Major: Business Administration
-              - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, A.I.
+              - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, A.I
               - Activities: Baseball, Volleyball, and Art Club participant
             ''')
 
@@ -77,3 +77,6 @@ elif page == '🌟 About':
                 - AP Computer Science A (Score: 5)
                 - Founded Coding Club
               ''')
+
+  st.subheader('Interests & Hobbies 🏓')
+    Interests = ['Web Development', 'A.I/Machine Learning', 'Art', 'Baseball', 'Volleyball', 'Japanese Animations']

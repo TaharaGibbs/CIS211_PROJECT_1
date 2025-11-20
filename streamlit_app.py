@@ -28,7 +28,6 @@ if page == '🏠 Home':
   st.markdown('<p class="sub-header">Aspiring Astronaut | Medgar Evers College</p>', unsafe_allow_html=True)
 
   # Three Colums for stats
-  
   col1, col2, col3 = st.columns(3)
   
   with col1:
@@ -37,22 +36,23 @@ if page == '🏠 Home':
     st.metric('Projects', '5', '💼')
   with col3:
     st.metric('Skills', '10+', '🚀')
+    
   st.write('---')
 
-# Introduction with columns
-col1, col2 = st.columns([2,1])
-with col1:
-  st.subheader('Welcome to my digital space!👋')
-  st.write('''
-              I am a Business Administration student who is passionate about Entrepreneurship and Business Development. I am currnetly 
-              learning HTML, CSS, JavaScript, and Python to build innovative solutions.
+  # Introduction with columns
+  col1, col2 = st.columns([2,1])
+  with col1:
+    st.subheader('Welcome to my digital space!👋')
+    st.write('''
+                I am a Business Administration student who is passionate about Entrepreneurship and Business Development. I am currnetly 
+                learning HTML, CSS, JavaScript, and Python to build innovative solutions.
 
-              🎯 **Current Focus:** Building interactive web applications with Streamlit
+                🎯 **Current Focus:** Building interactive web applications with Streamlit
 
-              📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
+                📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
 
-              🚀 **Fun Fact:** I can make complex edits on Adobe After Effects!
-              ''')
+                🚀 **Fun Fact:** I can make complex edits on Adobe After Effects!
+            ''')
   with col2:
     # Placeholder for image
     st.image('https://raw.githubusercontent.com/TaharaGibbs/CIS211_PROJECT_1/refs/heads/main/pngtree-astronaut-waving-in-space-suit-illustration-png-image_15736057.avif', use_column_width=True)
@@ -69,4 +69,4 @@ elif page == '🌟 About':
               - Major: Business Administration
               - Relevant Coursework: Internet 7 Emerging Technologies, Programming, Databse Systems, A.I.
               - Activities: Baseball, Volleyball, and Art Club participant
-          ''')
+            ''')

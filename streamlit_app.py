@@ -71,4 +71,9 @@ elif page == '🌟 About':
               - Activities: Baseball, Volleyball, and Art Club participant
             ''')
 
-  with st.expander("2024 - 2025: NYC President's School"):
+  with st.expander('2024 - 2025: NYC Art School'):
+    st.write('''
+                - Graduated with honors
+                - AP Computer Science A (Score: 5)
+                - Founded Coding Club
+              ''')

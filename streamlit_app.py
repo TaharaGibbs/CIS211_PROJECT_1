@@ -62,7 +62,7 @@ elif page == '🌟 About':
   st.title('About Me')
 
   # Timeline of my Professional Journey 
-  st.subheader('My Journey 🛣')
+  st.subheader('My Journey 📍')
 
   with st.expander('2025 - Present: Medgar Evers Colle'):
     st.write('''

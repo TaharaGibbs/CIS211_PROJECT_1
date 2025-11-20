@@ -53,4 +53,6 @@ with col1:
 
               🚀 **Fun Fact:** I can make complex edits on Adobe After Effects!
               ''')
-  
+  with col2:
+    # Placeholder for image
+    st.image(), use_column_width=True)

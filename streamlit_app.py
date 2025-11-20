@@ -56,3 +56,17 @@ with col1:
   with col2:
     # Placeholder for image
     st.image('https://raw.githubusercontent.com/TaharaGibbs/CIS211_PROJECT_1/refs/heads/main/pngtree-astronaut-waving-in-space-suit-illustration-png-image_15736057.avif', use_column_width=True)
+
+# About Page
+elif page == '🌟 About':
+  st.title('About Me')
+
+# Timeline of my Professional Journey 
+st.subheader('My Journey 🛣')
+
+with st.expander(2025 - Present: Medgar Evers Colle'):
+  st.write('''
+              - Major: Business Administration
+              - Relevant Coursework: Internet 7 Emerging Technologies, Programming, Databse Systems, A.I.
+              - Activities: Baseball, Volleyball, and Art Club participant
+          ''')

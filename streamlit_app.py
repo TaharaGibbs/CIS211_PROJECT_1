@@ -61,11 +61,11 @@ with col1:
 elif page == '🌟 About':
   st.title('About Me')
 
-# Timeline of my Professional Journey 
-st.subheader('My Journey 🛣')
+  # Timeline of my Professional Journey 
+  st.subheader('My Journey 🛣')
 
-with st.expander('2025 - Present: Medgar Evers Colle'):
-  st.write('''
+  with st.expander('2025 - Present: Medgar Evers Colle'):
+    st.write('''
               - Major: Business Administration
               - Relevant Coursework: Internet 7 Emerging Technologies, Programming, Databse Systems, A.I.
               - Activities: Baseball, Volleyball, and Art Club participant

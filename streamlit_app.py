@@ -79,4 +79,4 @@ elif page == '🌟 About':
               ''')
 
   st.subheader('Interests & Hobbies 🏓')
-    Interests = ['Web Development', 'A.I/Machine Learning', 'Art', 'Baseball', 'Volleyball', 'Japanese Animations']
+  Interests = ['Web Development', 'A.I/Machine Learning', 'Art', 'Baseball', 'Volleyball', 'Japanese Animations']

@@ -67,6 +67,6 @@ elif page == '🌟 About':
   with st.expander('2025 - Present: Medgar Evers Colle'):
     st.write('''
               - Major: Business Administration
-              - Relevant Coursework: Internet 7 Emerging Technologies, Programming, Databse Systems, A.I.
+              - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, A.I.
               - Activities: Baseball, Volleyball, and Art Club participant
             ''')

@@ -55,4 +55,4 @@ with col1:
               ''')
   with col2:
     # Placeholder for image
-    st.image(), use_column_width=True)
+    st.image('https://raw.githubusercontent.com/TaharaGibbs/CIS211_PROJECT_1/refs/heads/main/cartoon-astronaut-waving-clip-art-style_961875-480498.avif'), use_column_width=True)

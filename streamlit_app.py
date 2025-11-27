@@ -87,3 +87,11 @@ elif page == '🌟 About':
     with cols[i % 3]:
       st.info(f'🧩{interest}')
 
+elif page == '💼 Projects':
+  st.title('My Projects')
+  st.write('Here are some projects I have worked on:!)
+
+  # Project 1
+  with st.container():
+    col1, col2 = st.columns([1, 2])
+    

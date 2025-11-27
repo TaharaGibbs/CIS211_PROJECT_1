@@ -96,5 +96,5 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
 
     with col1:
-        st.image('https://www.dgpixel.com/techblog/wp-content/uploads/2021/04/digital-marketing-e-internazionalizzazione-le-imprese-e-lutilizzo-degli-strumenti-digitali_00.jpg')
+        st.image('https://th.bing.com/th/id/R.f1b7e8eab63689611376b0b7f23d4fea?rik=cuYCuq2bGsAPBQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fDigital-Marketing-PNG.png&ehk=1zUcafp%2fggRj2H8Rw%2fXijbJLed2QWcKIpX31ZlhXbKo%3d&risl=&pid=ImgRaw&r=0')
     

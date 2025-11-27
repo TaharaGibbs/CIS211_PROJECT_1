@@ -25,7 +25,7 @@ page = st.sidebar.radio('Go To:',
 # Home Page 
 if page == '🏠 Home':
   st.markdown('<p class="main-header">Tahara Gibbs</p>', unsafe_allow_html=True)  
-  st.markdown('<p class="sub-header">Aspiring Astronaut | Medgar Evers College</p>', unsafe_allow_html=True)
+  st.markdown('<p class="sub-header">Aspiring Corporate Attorney | Medgar Evers College</p>', unsafe_allow_html=True)
 
   # Three Colums for stats
   col1, col2, col3 = st.columns(3)
@@ -74,7 +74,7 @@ elif page == '🌟 About':
   with st.expander('2023 - 2025: NYC School of Business'):
     st.write('''
                 - Graduated with honors
-                - AP Management A (Score: 5)
+                - AP Management (Score: 5)
                 - Founded the Art Club
               ''')
 

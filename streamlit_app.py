@@ -51,7 +51,7 @@ if page == '🏠 Home':
 
                 📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
 
-                🚀 **Fun Fact:** I can make complex edits on Adobe After Effects!
+                🚀 **Fun Fact:** I can make complex edited videos on Adobe After Effects!
             ''')
   with col2:
     # Placeholder for image
@@ -64,18 +64,18 @@ elif page == '🌟 About':
   # Timeline of my Professional Journey 
   st.subheader('My Journey 📍')
 
-  with st.expander('2024 - Present: Medgar Evers College'):
+  with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
               - Major: Business Administration
-              - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, A.I
+              - Relevant Coursework: Introduction to Business, Management, Internet & Emerging Technologies, Programming, Database Systems, A.I
               - Activities: Baseball, Volleyball, and Art Club participant
             ''')
 
-  with st.expander('2024 - 2025: NYC Art School'):
+  with st.expander('2023 - 2025: NYC School of Business'):
     st.write('''
                 - Graduated with honors
-                - AP Computer Science A (Score: 5)
-                - Founded Coding Club
+                - AP Management A (Score: 5)
+                - Founded the Art Club
               ''')
 
   st.subheader('Interests & Hobbies 🏓')

@@ -98,3 +98,7 @@ elif page == '💼 Projects':
     with col1:
         st.image('https://th.bing.com/th/id/R.f1b7e8eab63689611376b0b7f23d4fea?rik=cuYCuq2bGsAPBQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fDigital-Marketing-PNG.png&ehk=1zUcafp%2fggRj2H8Rw%2fXijbJLed2QWcKIpX31ZlhXbKo%3d&risl=&pid=ImgRaw&r=0')
     
+  with col2:
+    st.subheader('🧮Business Plan')
+    st.write('Business Plan that creates and tracks the companies" goals and achievements')
+    st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')

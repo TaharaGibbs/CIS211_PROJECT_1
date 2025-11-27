@@ -64,7 +64,7 @@ elif page == '🌟 About':
   # Timeline of my Professional Journey 
   st.subheader('My Journey 📍')
 
-  with st.expander('2024 - Present: Medgar Evers Colle'):
+  with st.expander('2024 - Present: Medgar Evers College'):
     st.write('''
               - Major: Business Administration
               - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, A.I

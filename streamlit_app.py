@@ -100,5 +100,5 @@ elif page == '💼 Projects':
     
   with col2:
     st.subheader('🧮Business Plan')
-    st.write('Business Plan that creates and tracks the companies" goals and achievements')
+    st.write("Business Plan that creates and tracks the companies' goals and achievements")
     st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')

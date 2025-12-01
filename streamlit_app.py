@@ -114,4 +114,5 @@ with st.container():
     st.write('Interactive web app for calculating and visulaizing grades')
     st.caption('**Technologies:** Python, Pandas, Plotly')
 
-elif page 
+elif page == '🔨 Skills':
+  st.title('Technical Skills')

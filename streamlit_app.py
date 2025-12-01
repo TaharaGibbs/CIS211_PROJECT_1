@@ -177,4 +177,10 @@ elif page == '📩 Contract':
 
     st.write('''
         📧 **Email:** tahara.gibbs@student.mec.cuny.edu
+        
         🔗 **LinkedIn:** [linkedin.com/in/taharagibbs](https://linkedin.com)
+
+        👩🏾‍💻 **Github:** [https://github.com/TaharaGibbs](https://github.com)
+
+        📸 **Instagram:** [@t._.thespacecadet](https://instagram.com)
+    ''')

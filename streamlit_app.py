@@ -102,3 +102,16 @@ elif page == '💼 Projects':
     st.subheader('🧮Business Plan')
     st.write("Business Plan that creates and tracks the companies' goals and achievements")
     st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+
+
+# Project 2
+with st.container():
+  col1, col2 = st.columns([1,2])
+  with col1:
+    st.image
+  with col2:
+    st.subheader('🔢Student Grsde Calculator')
+    st.write('Interactive web app for calculating and visulaizing grades')
+    st.caption('**Technologies:** Python, Pandas, Plotly')
+
+elif page 

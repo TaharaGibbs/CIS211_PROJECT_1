@@ -184,3 +184,29 @@ elif page == '📩 Contract':
 
         📸 **Instagram:** [@t._.thespacecadet](https://instagram.com)
     ''')
+
+    
+    # Fun interactive element
+    st.subheader('Current Status')
+
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            '⌨️ Coding',
+            '📚 Studing',
+            '☕ On a coffee break',
+            '🎮 Gaming',
+            '💤 Sleeping'
+        ]
+    )
+
+
+    st.info(f'Status: {status}')
+
+    # Footer 
+    st.write('---')
+    st.markdown(
+      f'<center>Made with 💝 using Streamlit | @ {datetime.now().year} Tahara Gibbs </center>',
+      unsafe_allow_html = Ture
+    )
+    

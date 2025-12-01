@@ -159,3 +159,22 @@ elif page == '📄 Resume':
   # Read PDF from Github repositiory
   with open('my_resume.pdf', 'rb') as pdf_file:
     PDFbyte = pdf_file.read()
+
+  st.download_button(
+    label ='🔽 Download Full Resume (PDF)',
+    data = PDFbyte,
+    file_name = 'my_resume.pdf',
+    mime ='application/pdf'
+  )
+
+elif page == '📩 Contract':
+  st.title("Let's Connect!")
+
+  col1, = st.columns(1)
+
+  with col1:
+    st.subheader('Send me a message.')
+
+    st.write('''
+        📧 **Email:** tahara.gibbs@student.mec.cuny.edu
+        🔗 **LinkedIn:** [linkedin.com/in/taharagibbs](https://linkedin.com)

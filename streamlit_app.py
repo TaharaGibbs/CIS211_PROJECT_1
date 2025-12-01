@@ -98,21 +98,21 @@ elif page == '💼 Projects':
     with col1:
         st.image('https://th.bing.com/th/id/R.f1b7e8eab63689611376b0b7f23d4fea?rik=cuYCuq2bGsAPBQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fDigital-Marketing-PNG.png&ehk=1zUcafp%2fggRj2H8Rw%2fXijbJLed2QWcKIpX31ZlhXbKo%3d&risl=&pid=ImgRaw&r=0')
     
-  with col2:
-    st.subheader('🧮Business Plan')
-    st.write("Business Plan that creates and tracks the companies' goals and achievements")
-    st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+    with col2:
+      st.subheader('🧮Business Plan')
+      st.write("Business Plan that creates and tracks the companies' goals and achievements")
+      st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
 
-# Project 2
-with st.container():
-  col1, col2 = st.columns([1,2])
-  with col1:
-    st.image
-  with col2:
-    st.subheader('🔢Student Grsde Calculator')
-    st.write('Interactive web app for calculating and visulaizing grades')
-    st.caption('**Technologies:** Python, Pandas, Plotly')
+  # Project 2
+  with st.container():
+    col1, col2 = st.columns([1,2])
+    with col1:
+      st.image
+    with col2:
+      st.subheader('🔢Student Grsde Calculator')
+      st.write('Interactive web app for calculating and visulaizing grades')
+      st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🔨 Skills':
   st.title('Technical Skills')

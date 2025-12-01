@@ -129,7 +129,7 @@ elif page == '🔨 Skills':
   }
 
   for skill, level in skills_data.items():
-    col1, col2 = st.columns([1.3])
+    col1, col2 = st.columns([1,3])
     with col1:
       st.write(skill)
     with col2:

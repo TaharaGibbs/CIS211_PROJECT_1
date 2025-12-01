@@ -110,9 +110,20 @@ elif page == '💼 Projects':
     with col1:
       st.image
     with col2:
-      st.subheader('🔢Student Grsde Calculator')
+      st.subheader('🔢Student Grade Calculator')
       st.write('Interactive web app for calculating and visulaizing grades')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🔨 Skills':
   st.title('Technical Skills')
+
+  # Skills with progress bars
+  st.subheader('Programming Languages')
+
+  skills_data = {
+      'Python' : 85,
+      'HTML/CSS' : 70,
+      'JavaScript' : 60,
+      'SQL' : 50,
+  'Technical Writing' : 40
+  }

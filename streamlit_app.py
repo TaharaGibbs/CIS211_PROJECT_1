@@ -125,7 +125,7 @@ elif page == '🔨 Skills':
       'HTML/CSS' : 70,
       'JavaScript' : 60,
       'SQL' : 50,
-  'Technical Writing' : 40
+      'Technical Writing' : 40
   }
 
   for skill, level in skills_data.items():

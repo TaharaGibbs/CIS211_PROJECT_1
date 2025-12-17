@@ -55,7 +55,7 @@ if page == '🏠 Home':
             ''')
   with col2:
     # Placeholder for image
-    st.image('https://raw.githubusercontent.com/TaharaGibbs/CIS211_PROJECT_1/refs/heads/main/pngtree-astronaut-waving-in-space-suit-illustration-png-image_15736057.avif', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/TaharaGibbs/CIS211_PROJECT_1/refs/heads/main/somos.jfif', use_column_width=True)
 
 # About Page
 elif page == '🌟 About':

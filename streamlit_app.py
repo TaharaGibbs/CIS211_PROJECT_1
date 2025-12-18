@@ -110,8 +110,8 @@ elif page == '💼 Projects':
     with col1:
       st.image
     with col2:
-      st.subheader('🔢Student Grade Calculator')
-      st.write('Interactive web app for calculating and visulaizing grades')
+      st.subheader('🔢Employee Complaint Box')
+      st.write('Interactive Web App for employee's such as staff, faculty, managers and supervisors to document any grievances they wish for the company to address.')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🔨 Skills':

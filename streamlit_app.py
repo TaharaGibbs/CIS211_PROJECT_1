@@ -108,7 +108,7 @@ elif page == '💼 Projects':
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image('https://lifestreams.ca/wp-content/uploads/2021/04/suggestion-box-1.png')
+       st.image('https://lifestreams.ca/wp-content/uploads/2021/04/suggestion-box-1.png')
     with col2:
       st.subheader('📥 Employee Suggestion Box')
       st.write('Interactive Web App for staff, faculty, managers and supervisors to document any grievances or suggestions they wish for the company to address')

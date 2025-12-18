@@ -108,10 +108,10 @@ elif page == '💼 Projects':
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image('https://kjssc.somaiya.edu.in/assets/kjsscsr/img/grievance-redressal/about.png')
+      st.image('https://www.apeasternpower.com/resources/UGCable/images/suggetions.png')
     with col2:
-      st.subheader('📥 Employee Complaint Box')
-      st.write('Interactive Web App for staff, faculty, managers and supervisors to document any grievances they wish for the company to address')
+      st.subheader('📥 Employee Suggestion Box')
+      st.write('Interactive Web App for staff, faculty, managers and supervisors to document any grievances or suggestions they wish for the company to address')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🔨 Skills':

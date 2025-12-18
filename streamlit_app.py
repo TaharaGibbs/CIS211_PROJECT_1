@@ -99,7 +99,7 @@ elif page == '💼 Projects':
         st.image('https://th.bing.com/th/id/R.f1b7e8eab63689611376b0b7f23d4fea?rik=cuYCuq2bGsAPBQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fDigital-Marketing-PNG.png&ehk=1zUcafp%2fggRj2H8Rw%2fXijbJLed2QWcKIpX31ZlhXbKo%3d&risl=&pid=ImgRaw&r=0')
     
     with col2:
-      st.subheader('🧮Marketing Plan')
+      st.subheader('🧮 Marketing Plan')
       st.write("A comprehensive document that was created as a means of outlining and tracking a companies' goals, desired achievements, strategies, and projections for their marketing department")
       st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
@@ -108,10 +108,10 @@ elif page == '💼 Projects':
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image
+      st.image('https://raw.githubusercontent.com/TaharaGibbs/CIS211_PROJECT_1/refs/heads/main/Complaint-Box.bak.avif')
     with col2:
-      st.subheader('🔢Employee Complaint Box')
-      st.write('Interactive Web App for staff, faculty, managers and supervisors to document any grievances they wish for the company to address')
+      st.subheader('Employee Complaint Box')
+      st.write('📥 Interactive Web App for staff, faculty, managers and supervisors to document any grievances they wish for the company to address')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🔨 Skills':

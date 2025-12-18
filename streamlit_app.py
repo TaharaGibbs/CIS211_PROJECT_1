@@ -111,7 +111,7 @@ elif page == '💼 Projects':
       st.image
     with col2:
       st.subheader('🔢Employee Complaint Box')
-      st.write('Interactive Web App for employee's such as staff, faculty, managers and supervisors to document any grievances they wish for the company to address.')
+      st.write('Interactive Web App for employee's such as staff, faculty, managers and supervisors to document any grievances they wish for the company to address')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🔨 Skills':

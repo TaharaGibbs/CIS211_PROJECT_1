@@ -110,8 +110,8 @@ elif page == '💼 Projects':
     with col1:
       st.image('https://cdni.iconscout.com/illustration/premium/thumb/negative-feedback-complaint-form-illustration-download-in-svg-png-gif-file-formats--dislike-logo-bad-claim-social-media-pack-business-illustrations-9691802.png')
     with col2:
-      st.subheader('Employee Complaint Box')
-      st.write('📥 Interactive Web App for staff, faculty, managers and supervisors to document any grievances they wish for the company to address')
+      st.subheader('📥 Employee Complaint Box')
+      st.write('Interactive Web App for staff, faculty, managers and supervisors to document any grievances they wish for the company to address')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🔨 Skills':

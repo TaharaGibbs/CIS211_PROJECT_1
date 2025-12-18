@@ -207,6 +207,6 @@ elif page == '📩 Contract':
     st.write('---')
     st.markdown(
       f'<center>Made with 💝 using Streamlit | @ {datetime.now().year} Tahara Gibbs </center>',
-      unsafe_allow_html = Ture
+      unsafe_allow_html = True
     )
     

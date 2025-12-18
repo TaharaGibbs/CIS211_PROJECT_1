@@ -108,7 +108,7 @@ elif page == '💼 Projects':
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image('https://raw.githubusercontent.com/TaharaGibbs/CIS211_PROJECT_1/refs/heads/main/Complaint-Box.bak.avif')
+      st.image('https://clipart-library.com/2023/Complaint-Box.bak.png')
     with col2:
       st.subheader('Employee Complaint Box')
       st.write('📥 Interactive Web App for staff, faculty, managers and supervisors to document any grievances they wish for the company to address')

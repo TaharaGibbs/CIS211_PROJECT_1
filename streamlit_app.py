@@ -161,7 +161,7 @@ elif page == '📄 Resume':
     PDFbyte = pdf_file.read()
 
   st.download_button(
-    label ='🔻 Download Full Resume (PDF)',
+    label ='🔽 Download Full Resume (PDF)',
     data = PDFbyte,
     file_name = 'my_resume.pdf',
     mime ='application/pdf'

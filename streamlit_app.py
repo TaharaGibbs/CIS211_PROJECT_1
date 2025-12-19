@@ -79,7 +79,7 @@ elif page == '🌟 About':
               ''')
 
   st.subheader('Interests & Hobbies 🏓')
-  interests = ['Web Development', 'A.I/Machine Learning', 'Art', 'Baseball', 'Volleyball', 'Japanese Animations']
+  interests = ['Web Development', 'Coding', 'Art', 'Baseball', 'Volleyball', 'Asian Media']
 
   # Display the interests in columns
   cols = st.columns(3)
@@ -110,7 +110,7 @@ elif page == '💼 Projects':
     with col1:
       st.image('https://lifestreams.ca/wp-content/uploads/2021/04/suggestion-box-1.png')
     with col2:
-      st.subheader('📥 Employee Suggestion Box')
+      st.subheader('📥 Company Suggestion Box')
       st.write('Interactive Web App for staff, faculty, managers and supervisors to document any grievances or suggestions they wish for the company to address')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
@@ -157,7 +157,7 @@ elif page == '📄 Resume':
   st.title('Resume')
 
   # Read PDF from Github repositiory
-  with open('my_resume.pdf', 'rb') as pdf_file:
+  with open('Tahara Gibbs Resume.pdf', 'rb') as pdf_file:
     PDFbyte = pdf_file.read()
 
   st.download_button(

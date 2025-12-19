@@ -67,7 +67,7 @@ elif page == '🌟 About':
   with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
               - Major: Business Administration
-              - Relevant Coursework: Introduction to Business, Management, Internet & Emerging Technologies, Programming, Database Systems, A.I
+              - Relevant Coursework: Introduction to Business, Management, Accounting, Internet & Emerging Technologies, Programming, Database Systems, A.I
               - Activities: Baseball, Volleyball, and Art Club participant
             ''')
 
@@ -75,7 +75,7 @@ elif page == '🌟 About':
     st.write('''
                 - Graduated with honors
                 - AP Management (Score: 5)
-                - Founded the Art Club
+                - Founded the Art & Creative Minds Club
               ''')
 
   st.subheader('Interests & Hobbies 🏓')
@@ -173,7 +173,7 @@ elif page == '📩 Contract':
   col1, = st.columns(1)
 
   with col1:
-    st.subheader('Send me a message.')
+    st.subheader('Send me a message 📪!')
 
     st.write('''
         📧 **Email:** tahara.gibbs@student.mec.cuny.edu

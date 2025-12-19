@@ -194,7 +194,7 @@ elif page == '📩 Contract':
         [
             '⌨️ Coding',
             '📚 Studing',
-            '☕ On a coffee break',
+            '🍵 On a tea break',
             '🎮 Gaming',
             '💤 Sleeping'
         ]
